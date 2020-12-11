@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function Contact() {
+export const Contact = (props) => {
   return (
     <div>
       {/* ======= Contact Us Section ======= */}
@@ -14,21 +14,21 @@ export function Contact() {
               <div className="info-box">
                 <i className="bx bx-map" />
                 <h3>Our Address</h3>
-                <p>13/2 Action Area III, Kolkata 700028, India</p>
+                <p>{props.content.address}</p>
               </div>
             </div>
             <div className="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={100}>
               <div className="info-box">
                 <i className="bx bx-envelope" />
                 <h3>Email Us</h3>
-                <p>hotelfix@hotelfix.com<br />worldwidehotelfix@hotelfix.com</p>
+                <p>{props.content.email_1}<br />{props.content.email_2}</p>
               </div>
             </div>
             <div className="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={200}>
               <div className="info-box ">
                 <i className="bx bx-phone-call" />
                 <h3>Call Us</h3>
-                <p>+9162913688<br />+91916357892</p>
+                <p>{props.content.number_1}<br />+91916357892</p>
               </div>
             </div>
             <div className="col-lg-12" data-aos="fade-up" data-aos-delay={300}>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function Hero() {
+export function Hero(props) {
   return (
     <div>
       {/* ======= Hero Section ======= */}
@@ -13,7 +13,7 @@ export function Hero() {
               <div className="carousel-item active" style={{ backgroundImage: 'url("assets/img/slide/slide-1.jpg")' }}>
                 <div className="carousel-container">
                   <div className="carousel-content container">
-                    <h2 className="animate__animated animate__fadeInDown">Welcome to <span>HotelFix</span></h2>
+  <h2 className="animate__animated animate__fadeInDown">Welcome to <span>{props.slideName}</span></h2>
                     <p className="animate__animated animate__fadeInUp">Starting from 2020, our website has more than over 100 hotels around India. We provide the best hotels possibilities around the country.</p>
                     <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                   </div>
