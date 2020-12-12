@@ -13,8 +13,8 @@ export function Hero(props) {
               <div className="carousel-item active" style={{ backgroundImage: 'url("assets/img/slide/slide-1.jpg")' }}>
                 <div className="carousel-container">
                   <div className="carousel-content container">
-  <h2 className="animate__animated animate__fadeInDown">Welcome to <span>{props.slideName}</span></h2>
-                    <p className="animate__animated animate__fadeInUp">Starting from 2020, our website has more than over 100 hotels around India. We provide the best hotels possibilities around the country.</p>
+  <h2 className="animate__animated animate__fadeInDown">Welcome to <span>{props.heroContent.slideName}</span></h2>
+                    <p className="animate__animated animate__fadeInUp">{props.heroContent.slide_1}</p>
                     <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                   </div>
                 </div>
@@ -23,10 +23,8 @@ export function Hero(props) {
               <div className="carousel-item" style={{ backgroundImage: 'url("assets/img/slide/slide-2.jpg")' }}>
                 <div className="carousel-container">
                   <div className="carousel-content container">
-                    <h2 className="animate__animated animate__fadeInDown">Book Worldwide...</h2>
-                    <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi
-                    ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
-                voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                    <h2 className="animate__animated animate__fadeInDown">{props.heroContent.slideName_2}</h2>
+                    <p className="animate__animated animate__fadeInUp">{props.heroContent.slide_2}</p>
                     <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                   </div>
                 </div>
@@ -35,10 +33,8 @@ export function Hero(props) {
               <div className="carousel-item" style={{ backgroundImage: 'url("assets/img/slide/slide-3.jpg")' }}>
                 <div className="carousel-container">
                   <div className="carousel-content container">
-                    <h2 className="animate__animated animate__fadeInDown">Luxarious and Safe stay</h2>
-                    <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi
-                    ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
-                voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                    <h2 className="animate__animated animate__fadeInDown">{props.heroContent.slideName_3}</h2>
+                    <p className="animate__animated animate__fadeInUp">{props.heroContent.slide_3}</p>
                     <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                   </div>
                 </div>

@@ -8,7 +8,7 @@ export function Hotel() {
         <div className="container" data-aos="fade-up" data-aos-delay={100}>
           <div className="section-title">
             <h2>Our Hotels</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p>Hotelfix hotel search allows users to compare hotel prices in just a few clicks from more than 300 booking sites for more than 5.0 million hotels and other types of accommodation in over 190 countries. With 1.4 billion visits annually to our site, travellers regularly use the hotel comparison to compare deals in the same city.</p>
           </div>
           {/* <div className="row">
                         <div className="col-lg-12">

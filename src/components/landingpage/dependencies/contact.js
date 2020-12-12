@@ -28,7 +28,7 @@ export const Contact = (props) => {
               <div className="info-box ">
                 <i className="bx bx-phone-call" />
                 <h3>Call Us</h3>
-                <p>{props.content.number_1}<br />+91916357892</p>
+                <p>{props.content.number_1}<br />{props.content.number_2}</p>
               </div>
             </div>
             <div className="col-lg-12" data-aos="fade-up" data-aos-delay={300}>
