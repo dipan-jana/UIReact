@@ -5,7 +5,7 @@ let aboutContent = {
   string_1: "Welcome to our website built on React. This is a Hotel Booking Website consisting of 25 hotels around. Enjoy cheap hotel deals for any destination with great savings.",
   string_2: "Pet Friendly",
   string_3: "Due to the huge influx of tourists in India, EaseMyTrip offers a wide range of luxury, deluxe and budget hotels to them. Choose to stay in luxury and comfort with greatest discounts available on hotels bookings.",
-  video_1: "https://www.youtube.com/watch?v=jDDaplaOz7Q",
+  video_1: "https://youtu.be/Scxs7L0vhZ4",
   string_4: "Classiest Budget Hotels",
   string_5: "We list classiest budget hotels on our site along with some of the prominent international hotel chains of India including Oberoi Group, ITC Group, Taj Group, Le Meridian Group and many others. Ranging from class hotels to luxury beach resorts, each hotel on our site gives you a memorable staying experience. Along with deluxe, budget and luxury hotels, Hotelfix also displays a number of heritage hotels for offering you a royal stay."
 };
